@@ -1,0 +1,12 @@
+[package]
+name = "axum-migrations"
+version = "0.1.0"
+authors = ["Andrey Khalepov <w54661c@gmail.com>"]
+edition = "2021"
+publish = false
+
+[workspace]
+members = [".", "api", "entity", "migration"]
+
+[dependencies]
+api = { path = "api" }
