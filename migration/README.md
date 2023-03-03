@@ -2,7 +2,7 @@
 
 - Generate a new migration file
     ```sh
-    cargo run -- migrate generate MIGRATION_NAME
+    cargo run -- generate MIGRATION_NAME --local-time
     ```
 - Apply all pending migrations
     ```sh
